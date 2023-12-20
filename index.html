@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <script defer src="js/main.js"></script>
+    <title>Pokedex</title>
+</head>
+<body>
+    <!-- Header with buttons and title -->
+    <header>
+        <h1>Lista de Pokemons</h1>
+        <!-- Removido o botão "Voltar" pois não há página anterior -->
+        <button id="pokedexBtn" onclick="window.location.href='pokedex.html'">Pokedex</button>
+    </header>
+
+    <!-- Pokemon cards container -->
+    <div id="pokemonContainer" class="grid-container"></div>
+
+    <!-- Navigation buttons -->
+    <div class="navigation">
+        <!-- Botão de "Próxima Página" agora funciona -->
+        <button id="nextPageBtn" onclick="fetchNextPage()">Próxima Página</button>
+        <!-- Botão "Voltar" que aparecerá a partir da segunda página -->
+        <button id="backBtn" style="display: none;">Voltar</button>
+    </div>
+</body>
+</html>

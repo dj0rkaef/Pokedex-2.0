@@ -1,0 +1,74 @@
+/* Arquivo CSS para estilizar a página de Detalhes do Pokemon */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+}
+
+header {
+    background-color: #333;
+    padding: 15px;
+    color: white;
+    text-align: center;
+}
+
+#pokemonDetails {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin: 10px 0;
+    display: block; /* Garante que a imagem fique centralizada */
+    margin-left: auto; /* Centraliza a imagem na tela */
+    margin-right: auto; /* Centraliza a imagem na tela */
+}
+
+h2 {
+    color: #333;
+    font-size: 20px;
+    margin-top: 10px;
+    text-align: center; /* Centraliza o texto */
+}
+
+.stats,
+.types,
+.moves {
+    margin-top: 20px;
+}
+
+.stats p,
+.types p,
+.moves p {
+    color: #666;
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-around;
+}
+
+.types,
+.moves {
+    float: left;
+    width: 48%; /* Garante que os blocos fiquem lado a lado */
+}
+
+.types h2,
+.moves h2 {
+    color: #333;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+/* Adicione mais estilos conforme necessário */
+
