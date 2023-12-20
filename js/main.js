@@ -1,5 +1,5 @@
 let currentPage = 1;
-// Atualiza a função para buscar dados dos Pokemons da API
+// buscar dados dos Pokémons da API
 function fetchPokemonData(url) {
     return fetch(url)
         .then(response => {
