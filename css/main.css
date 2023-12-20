@@ -15,12 +15,18 @@ header {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    background-image: url('pokemon.jpg'); /* Substitua com o caminho para a sua imagem de fundo */
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    align-items: center;
 }
 
 .pokemon-card {
     width: 200px;
     margin: 20px;
     padding: 10px;
+    background-color: #f2f2f2;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center; 
@@ -57,7 +63,7 @@ header {
     border: none;
     border-radius: 4px;
     cursor: pointer;
-    margin: 0 10px;
+    margin: 0 25px;
 }
 
 .navigation button:hover {
