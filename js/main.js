@@ -1,11 +1,5 @@
-// Arquivo JavaScript para a lógica da página principal
-// Inclua a lógica para buscar dados dos Pokemons da API e renderizar os cards
 
-// Função para buscar dados dos Pokemons da API
-let currentPage = 1; // Adiciona uma variável para controlar a página atual
-
-// ...
-
+let currentPage = 1;
 // Atualiza a função para buscar dados dos Pokemons da API
 function fetchPokemonData(url) {
     return fetch(url)
@@ -55,7 +49,6 @@ function updateNavigationButtons() {
 function renderPokemonCards(pokemonData) {
     const container = document.getElementById('pokemonContainer');
 
-    
     container.innerHTML = '';
 
     // Itera sobre os dados dos Pokemons e cria os cards

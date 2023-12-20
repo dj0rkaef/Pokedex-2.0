@@ -58,7 +58,7 @@ function renderPokemonDetails(detailsData) {
 
         // Adiciona o botão "Voltar para a Home"
         const backButton = document.getElementById('backBtn');
-        backButton.addEventListener('click', () => window.location.href = 'pokedex.html');
+        backButton.addEventListener('click', () => window.location.href = 'index.html');
     
 }
 

@@ -63,5 +63,5 @@ function showPokemonDetails(pokemon) {
 }
 
 // Adiciona event listeners e chama as funções necessárias
-const pokedexData = JSON.parse(localStorage.getItem('pokedex')) || [];
+const pokedexData = typeof localStorage !== 'undefined' ? JSON.parse(localStorage.getItem('pokedex')) || [] : [];
 renderPokedexCards(pokedexData);
