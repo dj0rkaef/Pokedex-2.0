@@ -6,7 +6,7 @@ body {
 }
 
 header {
-    background-color: #333;
+    background-color: #a80a0a;
     padding: 15px;
     color: white;
     text-align: center;
@@ -28,6 +28,12 @@ img {
     display: block; 
     margin-left: auto; 
     margin-right: auto; 
+}
+
+p {
+    text-transform: capitalize;
+    color: #333;
+    text-align: center; 
 }
 
 h2 {
@@ -60,6 +66,7 @@ h2 {
 .moves {
     float: left;
     width: 48%; 
+ 
 }
 
 .types h2,

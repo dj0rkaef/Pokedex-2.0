@@ -62,6 +62,5 @@ function showPokemonDetails(pokemon) {
     window.location.href = `details.html?name=${pokemon.name}`;
 }
 
-// Adiciona event listeners e chama as funções necessárias
 const pokedexData = typeof localStorage !== 'undefined' ? JSON.parse(localStorage.getItem('pokedex')) || [] : [];
 renderPokedexCards(pokedexData);

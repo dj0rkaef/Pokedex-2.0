@@ -1,4 +1,3 @@
-
 let currentPage = 1;
 // Atualiza a função para buscar dados dos Pokemons da API
 function fetchPokemonData(url) {
