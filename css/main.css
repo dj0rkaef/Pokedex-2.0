@@ -2,6 +2,11 @@ body {
     font-family: 'Arial', sans-serif;
     background-color: #f2f2f2;
     margin: 0;
+    background-image: url('pokemon.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    align-items: center;
 }
 
 header {
@@ -29,11 +34,7 @@ header button:hover {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    background-image: url('pokemon.jpg');
-    background-size: cover;
-    background-position: center;
-    min-height: 100vh;
-    align-items: center;
+    
 }
 
 .pokemon-card {
