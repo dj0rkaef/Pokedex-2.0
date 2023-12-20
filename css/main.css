@@ -1,5 +1,3 @@
-/* Arquivo CSS para estilizar a página principal (index.html) */
-
 body {
     font-family: 'Arial', sans-serif;
     background-color: #f2f2f2;
@@ -25,21 +23,21 @@ header {
     padding: 10px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    text-align: center; /* Centraliza o texto dentro do card */
+    text-align: center; 
 }
 
 .pokemon-card img {
     display: block;
-    margin: 0 auto; /* Centraliza a imagem no card */
+    margin: 0 auto;
 }
 
 .pokemon-card h3 {
-    text-transform: capitalize; /* Converte a primeira letra para maiúscula */
+    text-transform: capitalize;
     margin-top: 10px;
 }
 
 .pokemon-card button {
-    background-color: #b10d07; /* Cor de fundo verde para os botões */
+    background-color: #b10d07;
     color: white;
     padding: 7px 16px;
     border: none;
@@ -49,7 +47,5 @@ header {
 }
 
 .pokemon-card button:hover {
-    background-color: #e7140c; /* Cor de fundo verde mais escura no hover */
+    background-color: #e7140c;
 }
-
-/* Adicione mais estilos conforme necessário */
