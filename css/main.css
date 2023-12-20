@@ -12,7 +12,7 @@ header {
 }
 
 header button {
-    background-color: #3f12f4; /* Cor de fundo verde para os botões */
+    background-color: #3f12f4;
     color: white;
     padding: 8px 16px;
     border: none;
@@ -22,14 +22,14 @@ header button {
 }
 
 header button:hover {
-    background-color: #052668; /* Cor de fundo verde mais escura no hover */
+    background-color: #052668;
 }
 
 #pokemonContainer {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    background-image: url('pokemon.jpg'); /* Substitua com o caminho para a sua imagem de fundo */
+    background-image: url('pokemon.jpg');
     background-size: cover;
     background-position: center;
     min-height: 100vh;
