@@ -16,8 +16,8 @@ function fetchPokemonData(url) {
             return response.json();
         })
         .then(data => {
-            currentPage = data.next ? currentPage + 1 : null; // Atualiza a página atual
-            updateNavigationButtons(); // Atualiza a visibilidade dos botões
+            currentPage = data.next ? currentPage + 1 : null;
+            updateNavigationButtons();
             return data.results;
         })
         .catch(error => console.error(error));
@@ -55,7 +55,7 @@ function updateNavigationButtons() {
 function renderPokemonCards(pokemonData) {
     const container = document.getElementById('pokemonContainer');
 
-    // Limpa o conteúdo existente no container
+    
     container.innerHTML = '';
 
     // Itera sobre os dados dos Pokemons e cria os cards
@@ -85,7 +85,6 @@ function renderPokemonCards(pokemonData) {
         detailsButton.addEventListener('click', () => showPokemonDetails(pokemon));
         card.appendChild(detailsButton);
 
-        // Adiciona o card ao container
         container.appendChild(card);
     });
 }

@@ -1,6 +1,3 @@
-// Arquivo JavaScript para a lógica da página de Detalhes do Pokemon
-// Inclua a lógica para buscar e renderizar informações detalhadas do Pokemon
-
 // Função para buscar informações detalhadas do Pokemon da API
 function fetchPokemonDetails(name) {
     const url = `https://pokeapi.co/api/v2/pokemon/${name}`;

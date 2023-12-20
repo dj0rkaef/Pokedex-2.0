@@ -1,6 +1,3 @@
-// Arquivo JavaScript para a lógica da página Pokedex
-// Inclua a lógica para renderizar os Pokemons selecionados pelo usuário na Pokedex
-
 // Função para renderizar cards dos Pokemons na página Pokedex
 function renderPokedexCards(pokedexData) {
     const container = document.getElementById('pokedexContainer');
@@ -62,7 +59,6 @@ function removeFromPokedex(pokemon) {
 }
 
 function showPokemonDetails(pokemon) {
-    // Redireciona para a página de detalhes do Pokemon
     window.location.href = `details.html?name=${pokemon.name}`;
 }
 
