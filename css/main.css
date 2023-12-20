@@ -51,7 +51,7 @@ header {
 }
 
 .navigation button {
-    background-color: #3f12f4; /* Cor de fundo verde para os botões */
+    background-color: #3f12f4;
     color: white;
     padding: 8px 16px;
     border: none;
@@ -61,5 +61,5 @@ header {
 }
 
 .navigation button:hover {
-    background-color: #052668; /* Cor de fundo verde mais escura no hover */
+    background-color: #052668;
 }
