@@ -19,7 +19,7 @@ function fetchPokemonData(url) {
 // Atualiza a função para buscar a próxima página de Pokemons
 function fetchNextPage() {
     if (currentPage !== null) {
-        const nextPageUrl = `https://pokeapi.co/api/v2/pokemon/?offset=${(currentPage - 1) * 20}&limit=20`;
+        const nextPageUrl = `https://pokeapi.co/api/v2/pokemon/?offset=${(currentPage - 1) * 10}&limit=10`;
         fetchPokemonData(nextPageUrl)
             .then(renderPokemonCards)
             .catch(error => console.error(error));
